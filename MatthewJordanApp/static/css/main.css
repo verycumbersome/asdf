@@ -271,6 +271,12 @@ html, body {
   border-radius: 50% !important;
 }
 
+@media (max-width: 640px) {
+  /* line 123, ../scss/index.scss */
+  .profile-pic {
+    display: none;
+  }
+}
 /* line 4, ../scss/main.scss */
 html, body, div {
   margin-top: 0;

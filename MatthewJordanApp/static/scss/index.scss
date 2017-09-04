@@ -118,3 +118,9 @@ html, body {
     height: 144px;
     border-radius: 50% !important;
 }
+
+@media (max-width: 640px) {
+    .profile-pic {
+        display: none;
+    }
+}
